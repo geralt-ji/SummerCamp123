@@ -15,6 +15,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  env: {
+    NUXT_APP_BASE_URL: '/SummerCamp123/'
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
