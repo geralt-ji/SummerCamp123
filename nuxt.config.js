@@ -15,6 +15,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+
   app: {
     baseURL: '/SummerCamp123/', // 仓库名称
   },
@@ -40,5 +41,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
-}
+  },
+
+  compatibilityDate: '2024-12-26'
+};
